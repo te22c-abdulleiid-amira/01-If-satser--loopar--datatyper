@@ -12,10 +12,10 @@ Console.Write("Skriv in lösenord ");
 string password = Console.ReadLine();
 
 if (username == "kalleanka" && password == "12345")
-{
-    Console.WriteLine("Welcome!");
-}
+    {
+        Console.WriteLine("Welcome!");
+    }
 else
-{
-    Console.WriteLine("Wrong username or password");
-}
+    {
+        Console.WriteLine("Wrong username or password");
+    }
