@@ -49,3 +49,20 @@ for (int i = 0; i < 5; i++)
         Console.WriteLine("högre än 5!");
     }
 }
+
+
+string input;
+int result;
+
+do
+{
+    Console.Write("Enter a number: ");
+    input = Console.ReadLine();
+    
+    if (!int.TryParse(input, out result))
+    {
+        Console.WriteLine("Invalid input, please enter a valid number.");
+    }
+} while (!int.TryParse(input, out result));
+
+Console.WriteLine("You entered a valid number!");
