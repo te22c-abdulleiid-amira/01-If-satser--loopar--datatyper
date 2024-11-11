@@ -26,7 +26,6 @@ for (int i = 0; i < 32; i++)
 }
 
 
-string password = "";
 
 while (password != "12345")
 {
