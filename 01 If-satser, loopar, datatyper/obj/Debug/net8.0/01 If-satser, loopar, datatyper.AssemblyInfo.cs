@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("01 If-satser, loopar, datatyper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+860fd6974e36e05e779f6050e72aca9d8b54c67a")]
 [assembly: System.Reflection.AssemblyProductAttribute("01 If-satser, loopar, datatyper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("01 If-satser, loopar, datatyper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

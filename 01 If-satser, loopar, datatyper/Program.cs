@@ -19,3 +19,34 @@ else
     {
         Console.WriteLine("Wrong username or password");
     }
+
+for (int i = 0; i < 32; i++)
+{
+    Console.WriteLine("Hello, World");
+}
+
+
+string password = "";
+
+while (password != "12345")
+{
+    Console.Write("Enter password: ");
+    password = Console.ReadLine();
+
+    if (password != "12345")
+    {
+        Console.WriteLine("Wrong password, try again.");
+    }
+}
+Console.WriteLine("Access granted!");
+
+for (int i = 0; i < 5; i++)
+{
+    Console.Write("Enter a number: ");
+    int number = int.Parse(Console.ReadLine());
+
+    if (number > 5)
+    {
+        Console.WriteLine("högre än 5!");
+    }
+}
