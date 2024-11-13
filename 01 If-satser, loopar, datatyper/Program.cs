@@ -22,12 +22,34 @@
 
 Random random = new Random ();
 
-int rättNummer = random.Next(1, 50); //slumpar tal frpn 1 till 50
+int rättNummer = random.Next(1, 50); 
 
 int guess = 0;
 
-while (guess != rättNummer)
+Console.WriteLine("gissa ett tal mellan 1 och 50.");
+
+while (guess != targetNumber)
 {
+    Console.Write("skriv in gissning.");
+    string input = Console.ReadLine();
 
+    if (int.TryParse(input, out guess))
+        {
+            if (guess > targetNumber)
+            {
+                Console.WriteLine("mindre");
+            }
+            else if (guess < targetNumber)
+            {
+                Console.WriteLine("högre");
+            }
+            else
+            {
+                Console.WriteLine("rätt tal");
+            }
+        }
+    else
+        {
+            Console.WriteLine("fel. skriv in heltal");
+        }
 }
-
