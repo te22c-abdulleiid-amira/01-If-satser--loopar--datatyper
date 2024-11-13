@@ -21,3 +21,13 @@
 // }
 
 Random random = new Random ();
+
+int rättNummer = random.Next(1, 50); //slumpar tal frpn 1 till 50
+
+int guess = 0;
+
+while (guess != rättNummer)
+{
+
+}
+
